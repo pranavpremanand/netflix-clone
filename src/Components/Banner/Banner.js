@@ -17,7 +17,6 @@ function Banner() {
           return num;
         }
         const num = random();
-        // console.log(response.data.results[randomNum]);
         setMovie(response.data.results[num]);
       })
       .catch((err) => {

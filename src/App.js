@@ -10,11 +10,9 @@ function App() {
     <div className="App">
       <NavBar/>
       <Banner/>
-      {/* <RowPosts url={originals} title='Netflix Originals'/> */}
       <RowPosts url={actions} title='Action'/>
       <RowPosts url={horror} title='Horror' isSmall/>
       <RowPosts url={romance} title='Romance' isSmall/>
-      {/* <RowPosts url={documentaries} title='Documentaries' isSmall/> */}
     </div>
   );
 }
